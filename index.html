@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redact App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-bar">Text Redaction App</div>
+    <div class="nav-bar">
+        <ul>
+            <li><a  href="#contact">Contact</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#news">Sports</a></li>
+            <li><a href="#news">Entertainment</a></li>
+            <li><a href="#news">Politics</a></li>
+            <li><a href="#news">Affairs</a></li>
+            <li><a class="active" href="#home">Home</a></li>
+          </ul>
+    </div>
+    <div class="container">
+        <div class="welcome"><h1>Welcome to wizzy's blog</h1> 
+            <p>News Entertainment Sports Lifestyle Fashion Beauty</p>
+            <hr>
+        </div>
+        <div class="parent">
+            <div class="parent-div1">
+                <div class="image"> </div>
+                <p>The National Assembly on Thursday approved the N2.18tn 2023 Supplementary Appropriation Bill forwarded to it for consideration by President Bola Tinubu.</p>
+                <p> While the Senate approved the N5bn proposed for a presidential yacht in the budget, the House of Representatives cancelled the allocation and added it to the student loan, increasing the budget for the scheme to N10bn, up from the initial N5.5bn</p>
+                <p>Although the harmonised budget report presented by the Chairman of the Senate Committee of Appropriations, Solomon Adeola, (Ogun West), was jointly signed by himself and the Chairman of the House Committee on Appropriation, Abubakar Bichi, the House refused to adopt the N5bn yacht allocation.</p>
+                <p>Speaking on the House’s refusal to approve the planned purchase of the boat, Bichi stated, “As far as we are concerned, we don’t need that anymore. We have increased the student loan.</p>
+                <p>“If you can recall, the student loan was N5bn in the budget, but now we have increased it from N5bn to N10bn so that our students will be able to access that facility </p>
+            </div>
+            <div class="parent-div2">
+                <div class="comment-text"><h4>Kindly leave a comment here:</h4> 
+                    
+                </div>
+                <div class="form-container">
+                    
+                        <div class="redact">
+                            <div class="textarea-div">
+                                <textarea id="message" name="message" rows="4" cols="30" placeholder="Enter Text Here..."></textarea>
+                            </div>
+                            <div class="redact-text">
+                                <input type="text" placeholder="Enter words to redact..." id="textToRedact">
+                            </div>
+                            <div class="special-char">
+                                <input type="text" placeholder="Specify special character..." id="spec-char">
+                            </div>
+                            <div class="redact-button-div">
+                                <input type="submit" value="Redact Now" id="redact-button">
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+                <div class="redacted">
+                    <p>Redacted Text:</p>
+                    <p class="redacted-text"></p>
+                    <hr class="hr">
+                    <p>Number of words scanned:</p>
+                    <p class="numWords"></p>
+                    <hr class="hr">
+                    <p>Number of matched words to be scrambled:</p>
+                    <p class="matchedWords"></p>
+                    <hr class="hr">
+                    <p>Number of characters scrambled:</p>
+                    <p class="scrambledchar"></p>
+                    <hr class="hr">
+                    <p>Time of execution:</p>
+                    <p class="timeToExecute"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script src="scripts.js">
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+.top-bar{
+    width: 100%;
+    height: 20px;
+    background-color:rgb(91, 48, 48);
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(245, 245, 245);
+}
+.container {
+    width: 100%;
+    height: 73vh;
+    background-color: rgb(91, 48, 48);
+}
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: darkgray;
+}
+
+.welcome {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.parent {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.parent-div1 {
+    flex: 1 200px;
+    margin-right: 5px;
+    height: 350px;
+    width: 50%;
+    background-color: rgb(91, 48, 48);
+    color: white;
+   border-right: 5px solid white;
+   text-wrap: wrap;
+}
+.image {
+    background-image: url("img/tinubu.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+.parent-div2 {
+    flex: 1 200px;
+    background-color: rgb(91, 48, 48);
+    
+}
+
+.form-container {
+    background-color: rgb(255, 0, 0);
+    width: 310px;
+    height: 320px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 2px solid white;
+    float: left;
+}
+.textarea-div {
+    margin-bottom: 10px;
+}
+textarea {
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 270px;
+}
+
+.redact-text {
+    margin-bottom: 10px;
+}
+#textToRedact {
+    border-radius: 20px;
+    width: 270px;
+    height: 50px;
+}
+
+#spec-char {
+    border-radius: 20px;
+    width: 270px;
+    height: 50px; 
+}
+.redact-button-div {
+    float: left;
+}
+
+#redact-button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+#redact-button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.redacted {
+    background-color: rgb(255, 0, 0);
+    width: 310px;
+    height: 320px;
+    float: right;
+}
+.comment-text {
+    color: white;
+}
+
+.div-image {
+    background-image: url("img/tinubu.jpeg");
+    background-size: cover;
+    background-color: blue;
+    width: 50%;
+    height: 300px;
+}
+hr {
+    border: 5px solid #fff; /* 2px width and black color; adjust as needed */
+}
+
+h4 {
+    color: white;
+}
+
+.redacted-text {
+    color: white;
+}
+
+.redacted :nth-child(1) {
+    color: #fff;
+    font-size: 40px;
+}
+p {
+    color: #fff;
+}
+.hr {
+    border: 1px solid #fff; /* 2px width and black color; adjust as needed */
+}
+.redacted p {
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
